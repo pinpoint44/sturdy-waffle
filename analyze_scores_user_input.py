@@ -1,9 +1,9 @@
 scores = []
-
+#Sample scores : 25, 35, 40, 28
 for i in range(4):
     item = int(input(f"Enter 4 scores: "))
     scores.append(item)
-#Sample scores : 25, 35, 40, 28
+    
 print("\nYour list of scores:")
 print(scores)
 
