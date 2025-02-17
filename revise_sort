@@ -1,0 +1,11 @@
+mylist = [2, 10, 4, 3, 5, 6, 8, 7, 9, 1]
+print("Your unsorted list:", mylist)
+
+for i in range(len(mylist)):
+    min_num = i
+    for j in range(i+1, len(mylist)):
+        if mylist[j] < mylist[min_num]:
+            min_num = j
+    mylist[i] , mylist[min_num] = mylist[min_num] , mylist[i]
+
+print("Your sorted list: ", mylist)
