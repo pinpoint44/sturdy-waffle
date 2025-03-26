@@ -1,0 +1,85 @@
+number1 = 30
+number2 = 20
+        
+total = number1 * number2
+
+print(f"The result is {total}")
+
+number3 = 40
+number4 = 30
+
+total1 = number3 + number4
+print(f"The result is {total1}")
+#END OF EXERCISE 1
+
+print("\nPrinting current and previous number sum in a range(10)")
+
+previous_number = 0
+
+for i in range(1,10):
+    x_sum = previous_number + i
+    
+    print(f"Current number {i} Previous number {previous_number} Sum: {x_sum}")
+    
+    previous_number = i
+#END OF EXERCISE 2
+
+str = "PyNative"
+
+print(f"\nOriginal string is {str}")
+print("Printing only even index chars")
+    
+x = list(str)
+for i in x[0::2]:
+    print(i)
+#END OF EXERCISE 3
+
+def removing_chars(word, n):
+    print(f"Original string: {str}")
+    x = word[n:]
+    return x
+
+print("\nRemoving characters in the string")
+print(removing_chars("pynative", 4))
+print(removing_chars("pynative", 2))
+#END OF EXERCISE 4
+
+def first_last_same(number_list):
+
+    print("\nGiven list: ", number_list)
+    first_num = number_list[0]
+    last_num = number_list[-1]
+    
+    if first_num == last_num:
+        return True
+    else:
+        return False
+    
+numbers_x = [10, 20 ,30, 40, 10]
+print("Result is", first_last_same(numbers_x))
+
+numbers_y = [75, 65, 35, 75, 30]
+print("Result is", first_last_same(numbers_y))
+#END OF EXERCISE 5
+
+number = 7356 
+print("\nGiven numbers:", number)
+
+while number > 0:
+    
+    digit = number % 10
+    
+    number = number // 10
+    print(digit, end="")
+#END OF EXERCISE 11
+
+def my_function(fname):
+    print(fname + " Fernandez")
+    
+my_function("\nCamille")
+my_function("Clint")
+my_function("Abegail")
+
+#END OF FUNCTION EXERCISE
+    
+
