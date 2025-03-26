@@ -79,7 +79,27 @@ def my_function(fname):
 my_function("\nCamille")
 my_function("Clint")
 my_function("Abegail")
-
 #END OF FUNCTION EXERCISE
+
+def my_function(*kids):
+    print("\nThe youngest child is " + kids[2])
+    
+my_function("Camille", "Clint", "Abegail")
+#END OF ARGUMENT FUNCTION
+
+def my_newfunction(country = "Philippines"):
+    print("\nI am from " + country)
+
+my_newfunction("Brazil")
+my_newfunction("Japan")
+my_newfunction("Thailand")
+my_newfunction()
+my_newfunction("Taiwan")
+#END OF DEFAULT PARAMETER VALUE FUNCTION EXERCISE
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+#END OF LOOP
     
 
