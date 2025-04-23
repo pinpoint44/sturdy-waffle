@@ -1,0 +1,97 @@
+#Question One
+x = 0
+print("What is 1 + 3?")
+answer_1 = input("a} 1\nb} 2\nc} 3\nd} 4\n")
+if answer_1.lower() == "d" or  answer_1.lower() == "4":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, 1 + 1 is 2")
+
+#Question Two
+print("What is 69 + 1?")
+answer_1 = input("a} 101\nb} 68\nc} 70\nd} 88\n")
+if answer_1.lower() == "c" or  answer_1.lower() == "70":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, 69 + 1 is 70")
+
+#Question Three
+print("What is the capital of Misamis Oriental?")
+answer_1 = input("a} Cagayan de Oro City\nb} Malaybalay City\nc} Balay City\nd} Iponan\n")
+if answer_1.lower() == "a" or  answer_1.lower() == "Cagayan de Oro City":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, The capital of Misamis Oriental is Cagayan de Oro City")
+
+#Question Four
+print("What is the color of sun?")
+answer_1 = input("a} Yellow\nb} Black\nc} Orange\nd} Red\n")
+if answer_1.lower() == "a" or  answer_1.lower() == "Yellow":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, The color of sun is Yellow")
+
+#Question Five
+print("Are you filipino?")
+answer_1 = input("a} True\nb} False\n")
+if answer_1.lower() == "a" or  answer_1.lower() == "True":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, You are a filipino!")
+
+#Question Six
+print("Is your head is round?")
+answer_1 = input("a} True\nb} False\n")
+if answer_1.lower() == "a" or  answer_1.lower() == "True":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, Your head is round!")
+
+#Question Seven
+print("Gwapo ko?")
+answer_1 = input("a} True\nb} False\n")
+if answer_1.lower() == "a" or  answer_1.lower() == "True":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, Pangit gar ka?")
+
+
+#Question eight
+print("Tralalero Tralala?")
+answer_1 = input("a} Shark with Nike\nb} Shark lang\nc} Shark boy\nd} Shark girl\n")
+if answer_1.lower() == "a" or  answer_1.lower() == "Shark with Nike":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect,Shark with Nike brain rot in uy!")
+
+#Question ten
+print("Gwapo si Loy-a?")
+answer_1 = input("a} True\nb} False\n")
+if answer_1.lower() == "b" or  answer_1.lower() == "False":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, Nagayuma ka?")
+
+#ten
+print("Maka pasar ko?")
+answer_1 = input("a} Yes\nb} Basin\nc} No\n")
+if answer_1.lower() == "b" or  answer_1.lower() == "Basin":
+    print("Correct")
+    x = x + 1
+else:
+    print("Incorrect, Pagsure uy?")
+
+score = float(x/10) * 100
+print(x,"out of 10, that is", score, "%")
+
+#CLINT ALLAN FERNANDEZ
+#IT1R7
